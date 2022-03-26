@@ -57,9 +57,23 @@ const removeCart =()=>{
       }
      </div>
       </div>
+      <div>
+        <h1> Question Ans.</h1>
+        <br/>
+        <h3>Difference Between Props and State</h3>
+        <p>
+          Props are immutable but state mutable.Props can be accessed by the child component but state can not accessed by child component.<br/>Props make components reusable but state can not make component reusable.Stateless component can have Props but Stateless components cannot have State.
+        </p>
+        <br/>
+        
+
+      </div>
     </div>
 
+    
+    
   );
 }
+
 
 export default App;
