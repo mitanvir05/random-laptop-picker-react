@@ -65,7 +65,10 @@ const removeCart =()=>{
           Props are immutable but state mutable.Props can be accessed by the child component but state can not accessed by child component.<br/>Props make components reusable but state can not make component reusable.Stateless component can have Props but Stateless components cannot have State.
         </p>
         <br/>
-        
+        <h3>How Usestate works ?</h3>
+        <p>
+          The useState is a Hook that allows you to have state variables in functional components. React has two types of components, one is class components which are ES6 classes that extend from React and the other is functional components. Class components a Component and can have state and lifecycle methods: class Message extends React. The useState hook is a special function that takes the initial state as an argument and returns an array of two entries. 
+        </p>
 
       </div>
     </div>
