@@ -14,9 +14,11 @@ useEffect(() => {
     <div>
       <h1>Random Gun Picker</h1>
       
-      {
+     <div className="card-container">
+        {
         guns.map(gun => <Card key={gun.id} gunData ={gun}/>)
       }
+     </div>
     </div>
   );
 }
