@@ -7,25 +7,16 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+.heading{
+  background-color: aqua;
+  margin: 50px;
+  padding: 20px;
+  text-align: center;
+}
 
 .card-container {
   margin: 50px 0;
   display: grid;
   gap: 50px;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-}
-
-.cart-warning {
-  height: 85%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.modal-close-button {
-  margin-bottom: 20px;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
 }

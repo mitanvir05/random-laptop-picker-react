@@ -3,20 +3,41 @@ import './App.css';
 import Card from './card/Card';
 
 function App() {
-  const [guns , setGuns]=useState([]);
+  const [laptops, setLaptops]=useState([]);
+  const [cart , setCart] = useState([]);
+  
+    const handleAddToCart = (laptop) =>{
+      const newCart = [...cart,laptop];
+      setCart(newCart);
+    };
 useEffect(() => {
   fetch("data.json")
   .then((res) => res.json())
-  .then((data) => setGuns(data));
+  .then((data) => setLaptops(data));
 },[]);
 
   return (
     <div>
-      <h1>Random Gun Picker</h1>
-      
+      <h1 className='heading'>Random Laptop Picker</h1>
+     <div className='cart'>
+       <h1>Selected Items</h1>
+       {
+         cart.map((item) => (
+           <h1 key={item.id}>{item.name}</h1>
+         ))
+       }
+       <div>
+         <button>Select 1 for me</button>
+       </div>
+       <div>
+         <button>Clear all</button>
+       </div>
+
+     </div>
      <div className="card-container">
         {
-        guns.map(gun => <Card key={gun.id} gunData ={gun}/>)
+        laptops.map(laptop => <Card key={laptop.id} laptopData ={laptop}
+        handleAddToCart={handleAddToCart}/>)
       }
      </div>
     </div>

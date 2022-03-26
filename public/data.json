@@ -1,131 +1,55 @@
 [{
         "id": 1,
-        "name": "GLOCK 17 Gen5",
-        "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/glock.png",
-        "bullet": "9mm",
-        "capacity": "17 + 1",
-        "action": "Semi-Automatic",
-        "price": "540",
-        "category": "Pistol"
+        "name": "MSI Modern 14 B10MW",
+        "img": "https://www.startech.com.bd/image/cache/catalog/laptop/msi/modern-14-b10mw/modern-14-b10mw-228x228.jpg",
+        "price": "787"
     },
     {
         "id": 2,
-        "name": "FN 509 Tactical",
-        "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/FN.png",
-        "bullet": "9mm",
-        "capacity": "10 + 1",
-        "action": "Semi-Automatic",
-        "price": "900",
-        "category": "Pistol"
+        "name": "MSI Modern 14 B11MO",
+        "img": "https://www.startech.com.bd/image/cache/catalog/laptop/msi/modern-14-b11mo/modern-14-b11mo-010-228x228.jpg",
+        "price": "955"
     },
     {
         "id": 3,
-        "name": "Kimber Custom 1911",
-        "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/ki%2Cber.png",
-        "bullet": "45 ACP",
-        "capacity": "7 + 1",
-        "action": "Semi-Automatic",
-        "price": "900",
-        "category": "Pistol"
+        "name": "Lenovo IdeaPad Slim 3i 15IGL",
+        "img": "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/ideapad-slim-3i/ideapad-slim-3i-0010-228x228.jpg",
+        "price": "455"
     },
     {
         "id": 4,
-        "name": "Beretta M9A4 RDO",
-        "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/beretta.png",
-        "bullet": "9mm",
-        "capacity": "18 + 1",
-        "action": "Semi-Automatic",
-        "price": "1000",
-        "category": "Pistol"
+        "name": "Dell Inspiron 15 3510",
+        "img": "https://www.startech.com.bd/image/cache/catalog/laptop/dell/inspiron-15-3510/inspiron-15-3510-01-228x228.jpg",
+        "price": "900"
     },
     {
         "id": 5,
-        "name": "Beretta A400 Xcel",
-        "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/beretta-shotgun.png",
-        "bullet": "12 Gauge",
-        "capacity": "3 + 1",
-        "action": "Semi-Automatic",
-        "price": "1720",
-        "category": "Shotgun"
+        "name": "HP 15s-du1116TU",
+        "img": "https://www.startech.com.bd/image/cache/catalog/laptop/hp-laptop/15s-du1116tu/15s-du1116tu-01-228x228.jpg",
+        "price": "600"
     },
     {
         "id": 6,
-        "name": "Benelli M1014",
-        "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/benalim4.png",
-        "bullet": "12 Gauge",
-        "capacity": "5 + 1",
-        "action": "Semi-Automatic",
-        "price": "1900",
-        "category": "Shotgun"
+       "name": "Acer Extensa 15 EX215-52-384M",
+       "img": "https://www.startech.com.bd/image/cache/catalog/laptop/acer/ex215-52-384m/ex215-52-384m-001-228x228.jpg",
+       "price": "650"
     },
     {
         "id": 7,
-        "name": "Browning Citori 725",
-        "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/Browning.png",
-        "bullet": "12 Gauge",
-        "capacity": "2",
-        "action": "Double Shot",
-        "price": "5430",
-        "category": "Shotgun"
+       "name": "Asus Vivobook X515MA",
+       "img": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/vivobook-x515ma/vivobook-x515ma-01-228x228.jpg",
+       "price": "450"
     },
     {
         "id": 8,
-        "name": "Winchester SXP",
-        "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/winchester.png",
-        "bullet": "12 Gauge",
-        "capacity": "5 + 1",
-        "action": "Pump",
-        "price": "570",
-        "category": "Shotgun"
+        "name": "Asus ExpertBook B1 B1500CEAE",
+        "img": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/expertbook-b1-b1500ceae/expertbook-b1-b1500ceae-01-228x228.jpg",
+        "price": "800"
     },
     {
         "id": 9,
-        "name": "Bergara B-14 HMR",
-        "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/bergara.png",
-        "bullet": "6.5 Creedmoor",
-        "capacity": "5",
-        "action": "Semi-Automatic",
-        "price": "970",
-        "category": "Rifle"
-    },
-    {
-        "id": 10,
-        "name": "Smith & Wesson M&P15",
-        "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/S%26WM%26P15.png",
-        "bullet": "5.56x45mm NATO",
-        "capacity": "30 + 1",
-        "action": "Semi-Automatic",
-        "price": "800",
-        "category": "Rifle"
-    },
-    {
-        "id": 11,
-        "name": "Ruger AR-556",
-        "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/RugerAR556.png",
-        "bullet": ".223 NATO",
-        "capacity": "30+1",
-        "action": "Semi-Automatic",
-        "price": "750",
-        "category": "Rifle"
-    },
-    {
-        "id": 12,
-        "name": "Ruger AR-556 MPR",
-        "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/RugerAR556RMP.png",
-        "bullet": ".223 NATO",
-        "capacity": "30 + 1",
-        "action": "Semi-Automatic",
-        "price": "880",
-        "category": "Rifle"
-    },
-    {
-        "id": 13,
-        "name": "Savage 110 Elite",
-        "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/savage110.png",
-        "bullet": ".300 Winchester Magnum",
-        "capacity": "5",
-        "action": "Bolt",
-        "price": "1870",
-        "category": "Rifle"
+        "name": "Dell Inspiron 15 3511",
+        "img": "https://www.startech.com.bd/image/cache/catalog/laptop/dell/inspiron-15-3511/inspiron-15-3511-07-228x228.jpg",
+        "price": "750"
     }
 ]
