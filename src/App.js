@@ -16,10 +16,26 @@ useEffect(() => {
   .then((data) => setLaptops(data));
 },[]);
 
+const selectOne = () =>{
+  if (cart.length !==0) {
+    const randomCart = cart[Math.floor(Math.random()*cart.length)];
+    alert (`Selected laptop ${randomCart?.name}!`); 
+  }
+  else{
+    alert (`plz add something to the cart`)
+  }
+};
+
+const removeCart =()=>{
+  setCart([]);
+};
+
+
   return (
     <div>
       <h1 className='heading'>Random Laptop Picker</h1>
-     <div className='cart'>
+      <div className='main-container'>
+      <div className='cart'>
        <h1>Selected Items</h1>
        {
          cart.map((item) => (
@@ -27,10 +43,10 @@ useEffect(() => {
          ))
        }
        <div>
-         <button>Select 1 for me</button>
+         <button onClick={selectOne}>Select 1 for me</button>
        </div>
        <div>
-         <button>Clear all</button>
+         <button onClick={removeCart}>Clear all</button>
        </div>
 
      </div>
@@ -40,7 +56,9 @@ useEffect(() => {
         handleAddToCart={handleAddToCart}/>)
       }
      </div>
+      </div>
     </div>
+
   );
 }
 
